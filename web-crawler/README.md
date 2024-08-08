@@ -3,3 +3,4 @@ The goal of this project is to use python and selenium to automate web crawling 
 
 
 # Usage
+1. Set up selenium.
