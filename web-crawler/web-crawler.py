@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 
 
 driver = webdriver.Firefox()
-driver.get("http://www.fbi.gov")
-assert "FBI" in driver.title
+driver.get("https://wildcardcorp.com/")
+assert "wildcard" in driver.title
 
 links = []
 links = driver.find_elements(By.TAG_NAME, 'a')
